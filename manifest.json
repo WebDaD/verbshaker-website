@@ -1,0 +1,10 @@
+{
+  "name": "My First Progressive Web app",
+  "short_name": "First PWA",
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white",
+  "version": "1.0"
+}
