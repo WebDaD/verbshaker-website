@@ -9,7 +9,7 @@ document.onreadystatechange = function () {
   if (document.readyState === "interactive") {
     language = getLanguage()
     document.getElementById('language').value = language
-    document.getElementById('version').innerHTML = '0.0.1' // TODO: set version here, into version.txt and into manifest.json
+    document.getElementById('version').innerHTML = '1.0.0' // TODO: set version here, into version.txt and into manifest.json
     createMixedVerb()
     setStrings()
   }
@@ -50,6 +50,3 @@ function getLanguage () {
   }
   return navigator.language.substring(0,2)
 }
-
-
-// TODO: add verbs to verbs array and languages from database
