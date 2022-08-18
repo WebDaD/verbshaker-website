@@ -10,19 +10,25 @@
     <link rel="manifest" href="/manifest.json" />
   </head>
   <body>
-    <h1>Verbshaker</h1>
-    <div id="verb">NO VERB LOADED YET</div>
-    <button id="button" onclick="createMixedVerb()">Load Verb</button>
-    <select id="language" onchange="changeLanguage()">
-      <option value="de" id="language_de">Deutsch</option>
-      <option value="en" id="language_en">English</option>
-      <!-- TODO: add languages -->
-    </select>
-    <a href="https://www.paypal.com/paypalme/Dsigmund" target="_blank" id="donate">Buy me a Coffee</a>
-    <a href="https://github.com/WebDaD/verbshaker-website" target="_blank" id="github">Github</a>
-    <span id="version">0.0.1</span>
-    <!-- TODO: add link to impressum, datenschutz -->
-    <!-- TODO: design -->
+    <div id="container">
+      <h1>Verbshaker</h1>
+      <div id="verb">NO VERB LOADED YET</div>
+      <button id="button" onclick="createMixedVerb()">Load Verb</button>
+    </div>
+    <footer>
+      <select id="language" onchange="changeLanguage()">
+        <option value="de" id="language_de">Deutsch</option>
+        <option value="en" id="language_en">English</option>
+        <option value="fr" id="language_fr">Französisch</option>
+        <option value="it" id="language_it">Italiano</option>
+        <option value="es" id="language_es">Español</option>
+      </select>
+      | <a href="https://www.paypal.com/paypalme/Dsigmund" target="_blank" id="donate">Buy me a Coffee</a>
+      | <a href="https://github.com/WebDaD/verbshaker-website" target="_blank" id="github">Github</a>
+      | v<span id="version">0.0.1</span>
+      | <a href="https://www.webdad.eu/impressum/" target="_blank" id="impressum">Impressum</a>
+      | <a href="https://www.webdad.eu/datenschutzerklarung/" target="_blank" id="privacy">Datenschutz</a>
+    </footer>
     <script type="text/javascript" src="js/strings.js"></script>
     <script type="text/javascript" src="js/verbs.js"></script>
     <script type="text/javascript" src="js/index.js"></script>

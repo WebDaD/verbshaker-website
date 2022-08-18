@@ -8,6 +8,8 @@ var strings = {
     language_es: 'Spanisch',
     button: 'Mixen',
     donate: 'Spendier mir einen Kaffee',
+    impressum: 'Impressum',
+    privacy: 'Datenschutz'
   },
   en: {
     language: 'Language',
@@ -18,6 +20,8 @@ var strings = {
     language_es: 'Spanish',
     button: 'Mix',
     donate: 'Donate me a coffee',
+    impressum: 'Legal Notice',
+    privacy: 'Privacy'
   },
   fr: {
     language: 'Langue',
@@ -28,6 +32,8 @@ var strings = {
     language_es: 'Espagnol',
     button: 'Mélanger',
     donate: 'Donnez-moi un café',
+    impressum: 'Mentions légales',
+    privacy: 'Confidentialité'
   },
   it: {
     language: 'Lingua',
@@ -38,6 +44,8 @@ var strings = {
     language_es: 'Spagnolo',
     button: 'Mescola',
     donate: 'Dona un caffè a me',
+    impressum: 'Informativa sulla privacy',
+    privacy: 'Privacy'
   },
   es: {
     language: 'Idioma',
@@ -48,5 +56,7 @@ var strings = {
     language_es: 'Español',
     button: 'Mezclar',
     donate: 'Doname un café',
+    impressum: 'Información legal',
+    privacy: 'Privacidad'
   }
 }

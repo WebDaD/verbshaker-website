@@ -1,7 +1,72 @@
-/*
-  TODO:
-  - nice theme
-  - nice font
-  - position elements
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #333333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f0f0f0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 4rem;
+}
+#verb {
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 3rem;
+  margin-bottom: 5%;
+}
+button {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+  padding: 2%;
+  border: none;
+  border-radius: 3px;
+  background-color: #f47100;
+  color: #fff;
+  cursor: pointer;
+  width: 80%;
+  margin: 2%;
+}
+button:hover {
+  background-color: #666666;
+}
 
-*/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #4d4d4d;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+#language {
+  background-color: #f47100;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
