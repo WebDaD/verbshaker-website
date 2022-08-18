@@ -17,6 +17,8 @@ document.onreadystatechange = function () {
 function changeLanguage () {
   language = document.getElementById('language').value
   document.documentElement.setAttribute("lang", language);
+  // TODO: set language in manifest.json
+  // TODO: set language in meta tags
   localStorage.setItem('lang', language)
   createMixedVerb()
   setStrings()
