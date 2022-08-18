@@ -9,7 +9,7 @@ document.onreadystatechange = function () {
   if (document.readyState === "interactive") {
     language = getLanguage()
     document.getElementById('language').value = language
-    document.getElementById('version').innerHTML = '1.0.0' // TODO: set version here, into version.txt and into manifest.json
+    document.getElementById('version').innerHTML = '1.0.1' // TODO: set version here, into version.txt and into manifest.json
     createMixedVerb()
     setStrings()
   }
@@ -29,7 +29,7 @@ function setStrings() {
   document.getElementById('language_de').innerHTML = strings[language].language_de
   document.getElementById('language_en').innerHTML = strings[language].language_en
   document.getElementById('language_fr').innerHTML = strings[language].language_fr
-  document.getElementById('language_it').innerHTML = strings[language].language_it
+  //document.getElementById('language_it').innerHTML = strings[language].language_it
   document.getElementById('language_es').innerHTML = strings[language].language_es
   document.getElementById('impressum').innerHTML = strings[language].impressum
   document.getElementById('privacy').innerHTML = strings[language].privacy
