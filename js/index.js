@@ -1,4 +1,10 @@
 var language = 'de'
+window.onload = () => {
+  "use strict";
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./service-worker.js");
+  }
+};
 document.onreadystatechange = function () {
   if (document.readyState === "interactive") {
     language = getLanguage()
@@ -45,5 +51,3 @@ function getLanguage () {
 
 
 // TODO: add verbs to verbs array and languages from database
-
-// TODO: pwa https://www.loginradius.com/blog/engineering/build-pwa-using-vanilla-javascript/
