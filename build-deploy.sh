@@ -58,6 +58,7 @@ cp -r images dist/images
 echo "-> Minification"
 echo "--> Minifying JS"
 uglifyjs --compress --mangle --output dist/js/index.min.js js/*.js
+uglifyjs --compress --mangle --output dist/service-worker.js service-worker.js
 echo "--> Minifying CSS"
 cleancss -o dist/css/index.min.css css/index.css
 echo "--> Fixing relative paths in html"
