@@ -1,5 +1,5 @@
 var language = 'de'
-var version = '1.0.13'
+var version = '1.0.14'
 window.onload = () => {
   "use strict";
   if ("serviceWorker" in navigator) {

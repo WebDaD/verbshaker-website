@@ -44,7 +44,7 @@ button {
   border: none;
   border-radius: 3px;
   background-color: #f47100;
-  color: #fff;
+  color: #000;
   cursor: pointer;
   width: 80%;
   margin: 2%;
@@ -65,7 +65,7 @@ footer {
 }
 #language {
   background-color: #f47100;
-  color: #fff;
+  color: #000;
   text-align: center;
   font-weight: bold;
   cursor: pointer;
