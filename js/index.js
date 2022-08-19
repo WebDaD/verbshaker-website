@@ -1,4 +1,5 @@
 var language = 'de'
+var version = '1.0.9'
 window.onload = () => {
   "use strict";
   if ("serviceWorker" in navigator) {
@@ -9,7 +10,7 @@ document.onreadystatechange = function () {
   if (document.readyState === "interactive") {
     language = getLanguage()
     document.getElementById('language').value = language
-    document.getElementById('version').innerHTML = '1.0.1' // TODO: set version here, into version.txt and into manifest.json
+    document.getElementById('version').innerHTML = version
     createMixedVerb()
     setStrings()
   }
