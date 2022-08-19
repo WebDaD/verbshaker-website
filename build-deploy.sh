@@ -54,11 +54,17 @@ mkdir -p dist/images
 
 echo "-> Copy images to 'dist'"
 cp -r images dist/images
+cp version.txt dist/version.txt
 
 echo "-> Minification"
 echo "--> Minifying JS"
 uglifyjs --compress --mangle --output dist/js/index.min.js js/*.js
 uglifyjs --compress --mangle --output dist/service-worker.js service-worker.js
+sed -i'' -e "s/index.css/index.min.css/g" dist/service-worker.js
+sed -i'' -e "s/index.js/index.min.js/g" dist/service-worker.js
+sed -i'' -e "s/\"\/js\/verbs.js\", //g" dist/service-worker.js
+sed -i'' -e "s/\"\/js\/strings.js\", //g" dist/service-worker.js
+rm -f dist/service-worker.js-e
 echo "--> Minifying CSS"
 cleancss -o dist/css/index.min.css css/index.css
 echo "--> Fixing relative paths in html"
