@@ -44,13 +44,25 @@ button {
   border: none;
   border-radius: 3px;
   background-color: #f47100;
-  color: #000;
+  color: #f47100;
   cursor: pointer;
   width: 80%;
   margin: 2%;
+  border-radius: 50px;
+  border-radius: 52px;
+  background: #333333;
+  box-shadow:  33px 33px 66px #161616,
+              -33px -33px 66px #505050;
+  transition: all 0.2s;
 }
 button:hover {
-  background-color: #666666;
+  border-radius: 52px;
+  border-radius: 52px;
+  background: #f47100;
+  box-shadow:  9px 9px 18px #c35a00,
+              -9px -9px 18px #ff8800;
+  color: #333333;
+  transition: all 0.2s;
 }
 
 footer {
