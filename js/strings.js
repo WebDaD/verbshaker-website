@@ -7,7 +7,7 @@ var strings = {
     language_it: 'Italienisch',
     language_es: 'Spanisch',
     button: 'Mixen',
-    donate: 'Spendier mir einen Kaffee',
+    donate_bmac: 'Spendier mir einen Kaffee',
     impressum: 'Impressum',
     privacy: 'Datenschutz'
   },
@@ -19,7 +19,7 @@ var strings = {
     language_it: 'Italian',
     language_es: 'Spanish',
     button: 'Mix',
-    donate: 'Donate me a coffee',
+    donate_bmac: 'Donate me a coffee',
     impressum: 'Legal Notice',
     privacy: 'Privacy'
   },
@@ -31,7 +31,7 @@ var strings = {
     language_it: 'Italien',
     language_es: 'Espagnol',
     button: 'Mélanger',
-    donate: 'Donnez-moi un café',
+    donate_bmac: 'Donnez-moi un café',
     impressum: 'Mentions légales',
     privacy: 'Confidentialité'
   },
@@ -43,7 +43,7 @@ var strings = {
     language_it: 'Italiano',
     language_es: 'Spagnolo',
     button: 'Mescola',
-    donate: 'Dona un caffè a me',
+    donate_bmac: 'Dona un caffè a me',
     impressum: 'Informativa sulla privacy',
     privacy: 'Privacy'
   },
@@ -55,7 +55,7 @@ var strings = {
     language_it: 'Italiano',
     language_es: 'Español',
     button: 'Mezclar',
-    donate: 'Doname un café',
+    donate_bmac: 'Doname un café',
     impressum: 'Información legal',
     privacy: 'Privacidad'
   }
