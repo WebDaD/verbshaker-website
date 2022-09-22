@@ -1,5 +1,5 @@
 var language = 'de'
-var version = '1.0.16'
+var version = '1.0.17'
 window.onload = () => {
   "use strict";
   if ("serviceWorker" in navigator) {
@@ -26,7 +26,7 @@ function changeLanguage () {
 }
 function setStrings() {
   document.getElementById('button').innerHTML = strings[language].button
-  document.getElementById('donate').innerHTML = strings[language].donate
+  document.getElementById('donate_bmac').innerHTML = strings[language].donate_bmac
   document.getElementById('language_de').innerHTML = strings[language].language_de
   document.getElementById('language_en').innerHTML = strings[language].language_en
   document.getElementById('language_fr').innerHTML = strings[language].language_fr
